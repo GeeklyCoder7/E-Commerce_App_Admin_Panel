@@ -13,6 +13,9 @@ public class ProductModel {
         this.productId = productId;
     }
 
+    public ProductModel() {
+    }
+
     public String getProductName() {
         return productName;
     }

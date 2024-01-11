@@ -16,6 +16,9 @@
         android:theme="@style/Theme.ECommerceAppAdminPanel"
         tools:targetApi="31">
         <activity
+            android:name=".activities.ViewProductsActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.AddCategoriesActivity"
             android:exported="false" />
         <activity

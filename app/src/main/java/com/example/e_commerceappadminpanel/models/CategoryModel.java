@@ -9,6 +9,10 @@ public class CategoryModel {
         this.categoryIconImage = categoryIconImage;
     }
 
+    public CategoryModel() {
+
+    }
+
     public String getCategoryName() {
         return categoryName;
     }
